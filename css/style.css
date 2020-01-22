@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+    list-style-type: none;
+	font-family: "Times New Roman";
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+	
+}
+
+
+/*-- test github */
+
+.container {
+display: flex;
+flex-direction: column;
+background-color: red;
+width: 100%;
+height: 20em;
+}
+
+.container div {
+
+}
+
+
+.logos {
+display: flex;
+flex: 1;
+background-color: yellow;
+}
+
+.input {
+flex: 1;
+background-color: peru;
+}
+
+.result {
+	flex: 1;
+	background-color: wheat;
+}
+
+.logos div {
+	flex: 1;
+}
+
+.team-one {
+background-color: thistle;
+box-shadow: 0 0 0 10px #7979af inset;
+}
+
+.team-two {
+	background-color: teal;
+	box-shadow: 0 0 0 10px #43bfbe inset;
+}
+
+.logos p {
+text-align: center;
+line-height: inherit;
+vertical-align: 50%;
+}
