@@ -13,8 +13,6 @@
 }
 
 
-/*-- test github */
-
 .container {
 display: flex;
 flex-direction: column;
@@ -29,15 +27,13 @@ flex: 1;
 background-color: yellow;
 }
 
-.input {
-	flex: 1;	
-	//background-color: rgb(191, 204, 218);
-}
+
 
 .stat {
 display: flex;
 flex-direction: column;
 flex: 1;
+margin-bottom: 1em;
 }
 
 .stat-title {
@@ -98,7 +94,7 @@ box-shadow: 0 0 0 10px #7979af inset;
 	margin: 0 auto;
 
 }
-
+ 
 .possession-1 {
 	width: 30%;
 	background-color: lightgreen;
@@ -158,4 +154,70 @@ box-shadow: 0 0 0 10px #7979af inset;
 .corners-2 {
 	width: 43%;
 	background-color: rgb(233, 105, 133);
+}
+
+.input-info {
+
+	height: 2em;
+
+}
+
+.input {
+	display: flex;
+	flex-direction: row;
+	flex: 1;	
+	background-color: rgb(191, 204, 218);
+}
+.input * {
+
+	flex: 1;
+
+}
+
+.statsnaming {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputteam1, .inputteam2  {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.inputteam1 > input {
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 31em;
+    border: none;
+    text-align: left;
+    color: #757575;
+  }
+
+  .inputteam2 > input {
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 31em;
+    border: none;
+    text-align: left;
+    color: #757575;
+  }
+
+  .functionsRun {
+
+	margin: auto;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+	padding: 15px 32px;
+	width: 10em;
+	  }
+  
+.functionsRun:hover {
+	background-color:  rgb(18, 114, 21);
 }
