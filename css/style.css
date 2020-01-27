@@ -207,11 +207,6 @@ box-shadow: 0 0 0 10px #7979af inset;
     align-self: center;
 	  }
   
-.functionsRun * {
-	display: table-cell
-	vertical-align: middle;
-}
-
 .functionsRun:hover {
 	background-color:  rgb(18, 114, 21);
 }

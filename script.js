@@ -12,21 +12,20 @@ var shotstarget2 = 9;
 var shotstargetpercentage1 = shotstarget1 / (shotstarget1+shotstarget2) * 100;
 var shotstargetpercentage2 = shotstarget2 / (shotstarget1+shotstarget2) * 100;
 
-//waiting till DOM conten is loaded
+//waiting till DOM conten is loaded\\
+function calculateStats (){
+    document.getElementsByClassName('possession-1')[0].style.width=(possession1+"%");
+    document.getElementsByClassName('possession-2')[0].style.width=(possession2+"%");
+    document.getElementsByClassName('shots-1')[0].style.width=(shots1percentage+"%");
+    document.getElementsByClassName('shots-2')[0].style.width=(shots2percentage+"%");
+    document.getElementsByClassName('shotsontarget-1')[0].style.width=(shotstargetpercentage1+"%");
+    document.getElementsByClassName('shotsontarget-2')[0].style.width=(shotstargetpercentage2+"%");
+}
 
 window.addEventListener('DOMContentLoaded', (event) => {
 
 // DOM content is loaded
 // From now on - our JS code is working here
-
-    function calculateStats (){
-        document.getElementsByClassName('possession-1')[0].style.width=(possession1+"%");
-        document.getElementsByClassName('possession-2')[0].style.width=(possession2+"%");
-        document.getElementsByClassName('shots-1')[0].style.width=(shots1percentage+"%");
-        document.getElementsByClassName('shots-2')[0].style.width=(shots2percentage+"%");
-        document.getElementsByClassName('shotsontarget-1')[0].style.width=(shotstargetpercentage1+"%");
-        document.getElementsByClassName('shotsontarget-2')[0].style.width=(shotstargetpercentage2+"%");
-    }
 
     calculateStats ();
 
