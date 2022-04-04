@@ -23,6 +23,8 @@ function calculateStats (){
 }
 
 
+//asdasdasd
+
 //waiting till DOM conten is loaded\\
 window.addEventListener('DOMContentLoaded', (event) => {
 
